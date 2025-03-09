@@ -11,7 +11,10 @@
   },
   "dependencies": {
     "nuxt": "^3.16.0",
+    "nuxt-auth-utils": "0.5.16",
     "vue": "^3.5.13",
-    "vue-router": "^4.5.0"
-  }
+    "vue-router": "^4.5.0",
+    "yarn": "^1.22.22"
+  },
+  "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
 }
