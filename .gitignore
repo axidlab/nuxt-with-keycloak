@@ -1,3 +1,14 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
 # Logs
 logs
 *.log
@@ -42,9 +53,14 @@ build/Release
 node_modules/
 jspm_packages/
 
+# Misc
+.DS_Store
+.fleet
+.idea
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
 
+# Local env files
 # TypeScript cache
 *.tsbuildinfo
 
@@ -74,6 +90,8 @@ web_modules/
 
 # dotenv environment variable files
 .env
+.env.*
+!.env.example
 .env.development.local
 .env.test.local
 .env.production.local
